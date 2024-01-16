@@ -529,3 +529,162 @@ img {
 .icon-soc-fot-svg:focus {
   background-color: #31d0aa;
 }
+
+/* ------------MODALL-------------- */
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(46, 47, 66, 0.40);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: visible;
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+  background: #FCFCFC;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 24px;
+}
+
+.button-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #E7E9FC;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.modal-title {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 360px;
+  margin-top: 48px;
+  margin-bottom: 34px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  outline: transparent;
+  background-color: transparent;
+  padding-left: 38px;
+  margin-bottom: 8px;
+}
+
+.modal-input:focus {
+  border-color: #4D5AE5;
+  border-radius: 4px;
+}
+
+.modal-input:focus+.modal-icon {
+  fill: #4D5AE5;
+}
+
+
+.modal-label {
+  display: block;
+  color: #8E8F99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+
+}
+
+.model-text-coment {
+  color: rgba (46, 47, 66, 0.40);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-input-icon {
+  position: relative;
+}
+
+.model-text-coment {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  outline: transparent;
+  background-color: transparent;
+  padding-left: 16px;
+  resize: none;
+}
+
+.comment-text-box {}
+
+.button-modal {
+  color: #FFF;
+  background: #4D5AE5;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-modal:hover,
+.button-modal:focus {
+  background: #404BBF;
+}
+
+.button-close:focus {
+  background-color: #404BBF;
+}
+
+.icon-clouse:focus,
+.icon-clouse:hover {
+  fill: #FFFFFF;
+}
