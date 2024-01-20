@@ -791,7 +791,10 @@ img {
   border: none;
 }
 
-.button-close:hover>.icon-clouse:hover,
+.button-close:hover>.icon-clouse:hover {
+  fill: #ffffff
+}
+
 .button-close:focus>.icon-clouse:focus {
   fill: #ffffff
 }
@@ -828,7 +831,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.40);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
