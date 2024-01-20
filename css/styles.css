@@ -807,7 +807,6 @@ img {
   line-height: normal;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   margin-top: 16px;
 }
@@ -840,8 +839,6 @@ img {
   fill: #F4F4FD;
 }
 
-.text-policy {
-  display: inline-flex;
-}
+.text-policy {}
 
 .link-sent {}
