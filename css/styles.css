@@ -597,17 +597,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-footer-sent:hover,
-.button-footer-sent:focus {
-  background: #404BBF
-}
-
 .sent-icon {
   fill: #f4f4fd;
   margin-left: 16px;
 }
 
-.text-sent-batton {}
+.button-footer-sent:hover,
+.button-footer-sent:focus {
+  background: #404BBF
+}
 
 
 /* ------------MODALL-------------- */
