@@ -572,10 +572,12 @@ img {
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-footer-sent {
   display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
   color: #FFF;
@@ -607,9 +609,7 @@ img {
   top: 8px;
 }
 
-.text-sent-batton {
-  left: 24px;
-}
+.text-sent-batton {}
 
 
 /* ------------MODALL-------------- */
@@ -625,7 +625,7 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.i-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: visible;
