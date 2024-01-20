@@ -841,6 +841,8 @@ img {
   fill: #F4F4FD;
 }
 
-.text-policy {}
+.text-policy {
+  display: inline-flex;
+}
 
 .link-sent {}
