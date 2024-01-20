@@ -545,27 +545,17 @@ img {
   margin-bottom: 16px;
 }
 
-.sent-label {
-  color: #FFF;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
 .sent-block {}
 
-.sent-conteiner {}
+.sent-conteiner {
+  margin-left: 24px;
+}
 
 .footer-form-sent {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
-.label-sent-conteiner {}
 
 .footer-sent {
   width: 264px;
