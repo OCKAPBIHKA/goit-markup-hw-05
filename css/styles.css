@@ -480,7 +480,9 @@ img {
   margin-right: 120px
 }
 
-.fotter-social-container {}
+.fotter-social-container {
+  margin-right: 80px;
+}
 
 .fotter-social-text {
   color: #FFF;
@@ -520,7 +522,7 @@ img {
   fill: #f4f4fd;
 }
 
-.icon-soc-fot-svg: {}
+.icon-soc-fot-svg {}
 
 .icon-soc-fot-svg:hover {
   background-color: #31d0aa;
@@ -529,6 +531,85 @@ img {
 .icon-soc-fot-svg:focus {
   background-color: #31d0aa;
 }
+
+/* ------------Fooooter sent-------------- */
+.footer-inform {}
+
+.footer-text-inform {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.sent-block {}
+
+.sent-conteiner {
+  margin-left: 24px;
+}
+
+.footer-foem-sent {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-sent {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.button-footer-sent {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #FFF;
+  background: #4D5AE5;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 24px;
+  border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-footer-sent:hover,
+.button-footer-sent:focus {
+  background: #404BBF
+}
+
+.sent-icon {
+  fill: #f4f4fd;
+  position: absolute;
+  right: 24px;
+  top: 8px;
+}
+
+.text-sent-batton {
+  left: 24px;
+}
+
 
 /* ------------MODALL-------------- */
 .backdrop {
@@ -546,7 +627,7 @@ img {
   ;
 }
 
-.is-open {
+.i-open {
   opacity: 1;
   visibility: visible;
   pointer-events: visible;
@@ -610,7 +691,6 @@ img {
   outline: transparent;
   background-color: transparent;
   padding-left: 38px;
-  margin-bottom: 8px;
 }
 
 .modal-input:focus {
@@ -635,7 +715,7 @@ img {
 }
 
 .model-text-coment {
-  color: rgba (46, 47, 66, 0.40);
+  color: rgba(46, 47, 66, 0.40);
   font-size: 12px;
   line-height: normal;
   line-height: 1.16;
@@ -713,6 +793,9 @@ img {
   line-height: normal;
   line-height: 1.16;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
 }
 
 .chek-text a {
@@ -722,4 +805,22 @@ img {
   line-height: 1.16;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
+}
+
+.chek-text span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.privat-police:checked+.chek-text span {
+  background-color: #404BBF;
+  border: none;
+  fill: #FFFFFF;
 }
