@@ -787,13 +787,11 @@ img {
   border: none;
 }
 
-.button-close:hover>.icon-clouse:hover {
+.button-close:hover>.icon-clouse,
+.button-close:focus>.icon-clouse {
   fill: #ffffff
 }
 
-.button-close:focus>.icon-clouse:focus {
-  fill: #ffffff
-}
 
 
 /* ------CHECK CHOISE-------- */
